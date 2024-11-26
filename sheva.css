@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.13);
+    z-index: 100;
+    background: white;
+}
+
+.navbar {
+    padding: 1% 8%;
+}
+
+.logo img {
+    width: 20%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0 8%;
+    align-items: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul input {
+    border: 1px solid lightgrey;
+    padding: 1% 0;
+    border-radius: 8px;
+}
+
+.home1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(https://webbpjs.azurewebsites.net/uploads/banners/13102024013936-d2de6acd-2032-4952-ac15-06f02e0acca2.jpg) no-repeat;
+    background-size: cover;
+    padding: 0 12%;
+}
+
+.home1 h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.layanan {
+    height: 35vh;
+    background: rgb(36,36,160);
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+}
+
+.title h1 {
+    color: white;
+    width: 30%;
+    font-weight: 800;
+}
+
+.content-layanan {
+    display: flex;
+}
+
+.content p {
+    background: white;
+    margin: 1rem 0;
+    padding: 14px;
+    font-weight: 600;
+    border-radius: 25px;
+    width: 90%;
+}
+
+.download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+    background: rgb(243, 243, 243);
+}
+
+.download-content1 p {
+    color: rgb(180, 179, 179);
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.download-content1 h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 70%;
+    margin-bottom: 1.5rem;
+}
+
+.download-content1 img {
+    width: 34%;
+    cursor: pointer;
+}
+
+.download img.bpjs-img {
+    width: 50%;
+}
+
+.informasi {
+    justify-content: center;
+    padding: 4% 8%;
+}
+
+.info-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.informasi h1.info-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.info-sub {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.subtitle {
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    padding: 7px;
+    border-radius: 360px;
+    border: 1px solid rgba(36, 36, 160, 0.205);
+}
+
+.subtitle .sub1 {
+    background: rgb(36,36,160);
+    border-radius: 360px;
+    padding: 12px;
+    color: white;
+    margin-right: 2.5px;
+}
+
+.subtitle .sub2 {
+    background: rgb(212, 212, 212);
+    border-radius: 360px;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+    margin-left: 2.5px;
+}
+
+.informasi-content {
+    display: flex;
+    align-items: center;
+}
+
+.content-img {
+    width: 250%;
+}
+
+.content-img img{
+    width: 100%;
+}
+
+.content-writing h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.content-writing p {
+    margin-bottom: 1rem;
+}
+ 
+.berita {
+    /* height: 60vh; */
+    background: rgb(243, 243, 243);
+    padding: 4% 0;
+}
+
+.berita-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+    
+.berita h1.berita-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+    
+.berita-sub {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+    
+.subtitle {
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    padding: 7px;
+    border-radius: 360px;
+    border: 1px solid rgba(36, 36, 160, 0.205);
+}
+    
+.subtitle .sub1 {
+    background: rgb(36,36,160);
+    border-radius: 360px;
+    padding: 12px;
+    color: white;
+    margin-right: 2.5px;
+}
+    
+.subtitle .sub2 {
+    background: rgb(212, 212, 212);
+    border-radius: 360px;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+    margin-left: 2.5px;
+}
+
+.berita-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tombol {
+    background: white;
+    border: 1px solid rgb(36, 36, 160);
+    padding: 12px;
+    border-radius: 4px;
+    color: rgb(36, 36, 160);
+}
+
+.footer {
+    background: rgb(44, 44, 179);
+    padding: 7% 10%;
+    display: flex;
+}
+
+.footer-container1 img {
+    width: 55%;
+    margin-bottom: 1.5rem;
+}
+
+.footer-container1 h4 {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.footer-container1 p {
+    width: 50%;
+    color: white;
+    font-size: 16px;
+    line-height: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-container2 {
+    display: flex;
+}
+
+.isi-footer {
+    margin-right: 3rem;
+}
+
+.isi-footer h3 {
+    margin-bottom: 13px;
+    color: white;
+    font-weight: 600;
+}
+
+.isi-footer p {
+    line-height: 2rem;
+    color: white;
+}
